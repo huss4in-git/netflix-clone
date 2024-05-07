@@ -1,0 +1,31 @@
+.row{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.row h1{
+    margin-bottom: -5px;
+    font-size: 1.4vw;
+    margin-top: 20px;
+}
+.movie-row{
+    display: flex;
+    margin-top: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.movie{
+    height: 150px;
+    width: 100%;
+    margin-right: 10px;
+    transition: 460ms;
+    border-radius: 2px;
+}
+.movie:hover{
+    transform: scale(1.05);
+}
+.movie-poster{
+    height: 250px;
+}
+::-webkit-scrollbar{ /* pseudo class to design the scroll bar */
+    display: none;
+}

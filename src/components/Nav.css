@@ -1,0 +1,9 @@
+.nav{
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    margin-left: 12px;
+}
+.nav-black{
+    background-color: black;
+}
